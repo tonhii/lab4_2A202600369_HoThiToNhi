@@ -477,3 +477,497 @@ Bạn vẫn còn 2.500.000đ để chi tiêu cho ăn uống, tham quan và các 
 
 ---
 
+## Chat Session
+
+**User:** Tôi có 300$ gợi ý lịch trình đi Phú Quốc
+
+```
+💬 Trả lời trực tiếp
+
+Final Answer:
+Để giúp bạn lên lịch trình cho chuyến đi Phú Quốc trong ngân sách 300$, mình cần một số thông tin thêm:
+
+1. Bạn dự kiến ở lại bao lâu?
+2. Bạn muốn khám phá những điểm gì ở Phú Quốc (bãi biển, khu vui chơi, ẩm thực, v.v.)?
+3. Bạn muốn di chuyển bằng máy bay hay phương tiện nào khác?
+4. Bạn có yêu cầu đặc biệt cho nơi ở (như khách sạn 2 sao, 3 sao...) không?
+
+Thông tin này sẽ giúp mình tư vấn chính xác hơn!
+```
+
+---
+
+## Chat Session
+
+**User:** 2 đêm
+
+```
+💬 Trả lời trực tiếp
+
+Final Answer:
+Bạn có thể cho tôi biết thêm thông tin về chuyến đi của bạn? Bạn dự định đi đâu và ngân sách của bạn là bao nhiêu cho mỗi đêm khách sạn?
+```
+
+---
+
+## Chat Session
+
+**User:** Tôi có 300$ gợi ý lịch trình đi Phú Quốct từ Sài Gòn 2 đêm
+
+```
+💬 Trả lời trực tiếp
+
+Final Answer:
+Để giúp bạn lên lịch trình đi Phú Quốc từ Sài Gòn trong 2 đêm với ngân sách 300$, mình cần biết thêm một số thông tin:
+
+1. Ngày bạn dự kiến đi và về?
+2. Bạn có nhu cầu về khách sạn như thế nào? ( nhu cầu cơ bản, trung cấp hay cao cấp )
+3. Bạn có kế hoạch tham gia hoạt động gì không? ( Ví dụ: tham quan, tắm biển, ăn uống,...)
+
+Thông tin này sẽ giúp mình tìm kiếm chuyến bay và khách sạn cho bạn một cách phù hợp nhất.
+```
+
+---
+
+## Chat Session
+
+**User:** Tôi có 200$ gợi ý lịch trình đi Hà Nội Phú Quốc 2 đêm
+
+```
+🔧 Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Phú Quốc'})
+🔧 Gọi tool: search_hotels({'city': 'Phú Quốc', 'max_price_per_night': 1000000})
+💬 Trả lời trực tiếp
+
+Final Answer:
+Chuyến bay:
+- Vietnam Airlines | 07:00 → 09:15 | 2.100.000đ
+- VietJet Air | 10:00 → 12:15 | 1.350.000đ
+- VietJet Air | 16:00 → 18:15 | 1.100.000đ
+
+Khách sạn gợi ý:
+- 9Station Hostel | 200.000đ/đêm | ⭐ 4.5
+- Lahana Resort | 800.000đ/đêm | ⭐ 4.0
+
+Tổng chi phí (cho 2 đêm):
+- Nếu chọn 9Station Hostel: 
+  - Chi phí 2 đêm = 200.000đ * 2 = 400.000đ
+- Nếu chọn Lahana Resort:
+  - Chi phí 2 đêm = 800.000đ * 2 = 1.600.000đ
+
+Tổng chi phí cho chuyến đi sẽ phụ thuộc vào chuyến bay bạn chọn. Đây là một gợi ý:
+
+1. Chọn chuyến bay VietJet Air lúc 10:00 (1.350.000đ)
+2. Chọn 9Station Hostel (400.000đ)
+
+Tổng chi phí sẽ là:
+1.350.000đ + 400.000đ = 1.750.000đ
+
+Gợi ý: Bạn nên chọn chuyến bay buổi chiều nếu muốn tiết kiệm chi phí và có thêm thời gian nghỉ ngơi hoặc vui chơi trước khi bay. Ngoài ra, hãy lưu ý đặt vé máy bay và khách sạn sớm để có giá tốt nhất!
+```
+
+---
+
+## Chat Session
+
+**User:** vậy 200$ có đủ không
+
+```
+💬 Trả lời trực tiếp
+
+Final Answer:
+Để xác định xem 200$ có đủ cho chuyến đi của bạn hay không, bạn cần cho tôi biết thông tin cụ thể hơn về kế hoạch du lịch của bạn. Bạn dự định đi đâu, thời gian bao lâu, và bạn cần chi tiêu cho những khoản gì? (ví dụ: vé máy bay, khách sạn, ăn uống, di chuyển,...)
+```
+
+---
+
+## Chat Session
+
+**User:** Tôi có 200$ gợi ý lịch trình đi Hà Nội Phú Quốc 2 đêm
+
+```
+🔧 Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Phú Quốc'})
+🔧 Gọi tool: search_hotels({'city': 'Phú Quốc', 'max_price_per_night': 1000000})
+💬 Trả lời trực tiếp
+
+Final Answer:
+Chuyến bay:
+- Vietnam Airlines | 07:00 → 09:15 | 2.100.000đ
+- VietJet Air | 10:00 → 12:15 | 1.350.000đ
+- VietJet Air | 16:00 → 18:15 | 1.100.000đ
+
+Khách sạn gợi ý:
+- 9Station Hostel | 200.000đ/đêm | ⭐ 4.5
+- Lahana Resort | 800.000đ/đêm | ⭐ 4.0
+
+Tổng chi phí cho chuyến đi Hà Nội - Phú Quốc trong 2 đêm sẽ như sau:
+1. Chọn chuyến bay VietJet Air vào lúc 16:00 (1.100.000đ).
+2. Nghỉ tại 9Station Hostel 2 đêm (200.000đ x 2 = 400.000đ).
+
+Tổng chi phí chuyến bay và khách sạn:
+- Vé máy bay: 1.100.000đ
+- Khách sạn: 400.000đ
+- Tổng chi phí: 1.500.000đ
+
+Gợi ý:
+Với ngân sách 200$, bạn có khoảng 4.600.000đ, vì vậy bạn vẫn còn dư 3.100.000đ sau khi trừ chi phí. Bạn có thể sử dụng số tiền dư này để ăn uống, tham quan, hoặc mua sắm tại Phú Quốc. Chúc bạn có chuyến đi vui vẻ!
+```
+
+---
+
+## Chat Session
+
+**User:** Tôi có 5 củ gợi ý lịch trình đi Hà Nội Phú Quốc 2 đêm
+
+```
+🔧 Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Phú Quốc'})
+🔧 Gọi tool: search_hotels({'city': 'Phú Quốc'})
+💬 Trả lời trực tiếp
+
+Final Answer:
+Dưới đây là thông tin chuyến bay và khách sạn cho chuyến đi của bạn từ Hà Nội đến Phú Quốc 2 đêm:
+
+### Chuyến bay:
+1. **Vietnam Airlines**
+   - Giờ khởi hành: 07:00 → 09:15
+   - Giá vé: 2.100.000đ
+2. **VietJet Air**
+   - Giờ khởi hành: 10:00 → 12:15
+   - Giá vé: 1.350.000đ
+3. **VietJet Air**
+   - Giờ khởi hành: 16:00 → 18:15
+   - Giá vé: 1.100.000đ
+
+### Khách sạn gợi ý ở Phú Quốc:
+1. **9Station Hostel**
+   - Giá: 200.000đ/đêm
+   - Đánh giá: ⭐ 4.5
+2. **Vinpearl Resort**
+   - Giá: 3.500.000đ/đêm
+   - Đánh giá: ⭐ 4.4
+3. **Lahana Resort**
+   - Giá: 800.000đ/đêm
+   - Đánh giá: ⭐ 4.0
+
+### Gợi ý lịch trình:
+**Ngày 1:** 
+- Sáng: Bay từ Hà Nội đến Phú Quốc.
+- Trưa: Nhận phòng tại khách sạn (có thể chọn 9Station Hostel để tiết kiệm chi phí).
+- Chiều: Khám phá bãi biển Dinh Cậu.
+
+**Ngày 2:**
+- Sáng: Tham quan Vinpearl Safari hoặc trải nghiệm lặn biển tại Hòn Móng Tay.
+- Chiều: Nghỉ ngơi tại khách sạn hoặc tham gia các hoạt động giải trí tại bãi biển.
+
+**Ngày 3:**
+- Sáng: Thưởng thức bữa sáng và chụp vài bức ảnh kỷ niệm tại bãi biển.
+- Trưa: Trả phòng và bay về Hà Nội.
+
+Nếu bạn có ngân sách cụ thể, tôi có thể giúp bạn tính toán tổng chi phí cho chuyến đi này!
+```
+
+---
+
+## Chat Session
+
+**User:** nếu tôi đi du lịch từ Hà Nội đến Sài Gòn 2 đêm, sau đó đến Đà Nẵng 3 đêm thì chi phí bao nhiêu
+
+```
+💬 Trả lời trực tiếp
+
+Final Answer:
+Để tính được tổng chi phí cho chuyến đi từ Hà Nội đến Sài Gòn rồi đến Đà Nẵng, tôi cần thông tin về ngân sách của bạn cho mỗi phần chi phí như vé máy bay và khách sạn. Bạn có thể cho biết ngân sách dự kiến cho mỗi đêm khách sạn và giá vé máy bay bạn mong muốn không?
+```
+
+---
+
+## Chat Session
+
+**User:** khoảng dưới 10 triệu
+
+```
+💬 Trả lời trực tiếp
+
+Final Answer:
+Bạn có thể cho tôi biết thông tin cụ thể hơn về chuyến đi của bạn không? Ví dụ: bạn muốn bay từ đâu đến đâu, thời gian đi và quay lại, và nếu bạn có loại khách sạn nào đó trong đầu không? Thông tin này sẽ giúp tôi tư vấn chính xác hơn trong ngân sách 10 triệu của bạn!
+```
+
+---
+
+## Chat Session
+
+**User:** nếu tôi đi du lịch từ Hà Nội đến Sài Gòn 2 đêm, sau đó đến Đà Nẵng 3 đêm thì chi phí bao nhiêu
+
+```
+💬 Trả lời trực tiếp
+
+Final Answer:
+Để tính toán chi phí cho chuyến đi từ Hà Nội đến Sài Gòn và sau đó đến Đà Nẵng, tôi sẽ tìm kiếm các chuyến bay và khách sạn cho từng địa điểm. Bạn có thể cho tôi biết ngân sách dự kiến của bạn cho chuyến đi này không?
+```
+
+---
+
+## Chat Session
+
+**User:** khoảng dưới 20 triệu
+
+```
+💬 Trả lời trực tiếp
+
+Final Answer:
+Bạn muốn tìm hiểu về chuyến đi nào trong khoảng ngân sách dưới 20 triệu? Hãy cho mình biết địa điểm xuất phát và điểm đến, cùng với thời gian đi để mình tư vấn cụ thể cho bạn nhé!
+```
+
+---
+
+## Chat Session
+
+**User:** từ Hà Nội đến Sài gòn 2 dêm, sau đó đi Đà Nẵng 3 đêm
+
+```
+🔧 Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Sài Gòn'})
+🔧 Gọi tool: search_hotels({'city': 'Sài Gòn'})
+🔧 Gọi tool: search_hotels({'city': 'Đà Nẵng'})
+💬 Trả lời trực tiếp
+
+Final Answer:
+Rất tiếc, hiện tại tôi không thể tìm thấy chuyến bay từ Hà Nội đến Sài Gòn. Ngoài ra, cũng không có dữ liệu khách sạn tại Sài Gòn.
+
+Tuy nhiên, tôi có thể gợi ý một số khách sạn tại Đà Nẵng cho bạn:
+
+- **9Station Hostel**: 200.000đ/đêm | ⭐ 4.5
+- **Vinpearl Resort**: 3.500.000đ/đêm | ⭐ 4.4
+- **Lahana Resort**: 800.000đ/đêm | ⭐ 4.0
+
+Nếu bạn cần thêm thông tin hoặc muốn lựa chọn khác, hãy cho tôi biết!
+```
+
+---
+
+## Chat Session
+
+**User:** đi HN → SG → ĐN
+
+```
+🔧 Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Singapore'})
+🔧 Gọi tool: search_flights({'origin': 'Singapore', 'destination': 'Đà Nẵng'})
+💬 Trả lời trực tiếp
+
+Final Answer:
+Rất tiếc, hiện tại không có chuyến bay từ Hà Nội đến Singapore và từ Singapore đến Đà Nẵng. Bạn có thể xem xét các phương án khác hoặc điều chỉnh lịch trình của mình. Nếu bạn cần tìm chuyến bay hoặc khách sạn đến một địa điểm khác, hãy cho tôi biết!
+```
+
+---
+
+## Chat Session
+
+**User:** đi Hà Nội đến Sài Gòn 2 dêm và từ Sài gòn đến Đà Nẵng 3 đêm
+
+```
+🔧 Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Sài Gòn'})
+🔧 Gọi tool: search_hotels({'city': 'Sài Gòn'})
+🔧 Gọi tool: search_flights({'origin': 'Sài Gòn', 'destination': 'Đà Nẵng'})
+🔧 Gọi tool: search_hotels({'city': 'Đà Nẵng'})
+💬 Trả lời trực tiếp
+
+Final Answer:
+Tôi đã tìm kiếm thông tin cho hành trình của bạn từ Hà Nội đến Sài Gòn và từ Sài Gòn đến Đà Nẵng, nhưng tôi không tìm thấy các chuyến bay từ Hà Nội đến Sài Gòn cũng như từ Sài Gòn đến Đà Nẵng. Điều này có thể do nhiều lý do như lịch bay hoặc sự thay đổi trong các dịch vụ hàng không.
+
+Tuy nhiên, tôi có thể cung cấp thông tin về các khách sạn ở Đà Nẵng cho bạn:
+
+Khách sạn gợi ý tại Đà Nẵng:
+1. **Christina's Homestay** | 350.000đ/đêm | ⭐ 4.7
+2. **Memory Hostel** | 250.000đ/đêm | ⭐ 4.6
+3. **Mường Thanh Luxury** | 1.800.000đ/đêm | ⭐ 4.5
+4. **Sala Danang Beach** | 1.200.000đ/đêm | ⭐ 4.3
+5. **Fivitel Danang** | 650.000đ/đêm | ⭐ 4.1
+
+Nếu bạn cần hỗ trợ thêm về phương tiện giao thông hoặc thông tin khác, vui lòng cho tôi biết nhé!
+```
+
+---
+
+## Chat Session
+
+**User:** Sài Gòn là Hồ Chí Minh đó
+
+```
+💬 Trả lời trực tiếp
+
+Final Answer:
+Đúng rồi! Sài Gòn và Hồ Chí Minh là cùng một thành phố. Bạn có cần tìm hiểu thông tin gì về du lịch tại Hồ Chí Minh không?
+```
+
+---
+
+## Chat Session
+
+**User:** nếu tôi đi du lịch từ Hà Nội đến Sài Gòn 2 đêm, sau đó đến Đà Nẵng 3 đêm thì chi phí bao nhiêu
+
+```
+💬 Trả lời trực tiếp
+
+Final Answer:
+Để tính toán chi phí, tôi cần biết ngân sách mà bạn dự định chi cho chuyến đi này. Bạn có thể cho tôi biết ngân sách dự kiến của bạn không?
+```
+
+---
+
+## Chat Session
+
+**User:** khoảng dưới 20 triệu
+
+```
+🔧 Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Sài Gòn'})
+🔧 Gọi tool: search_hotels({'city': 'Sài Gòn', 'max_price_per_night': 1000000})
+🔧 Gọi tool: search_flights({'origin': 'Sài Gòn', 'destination': 'Đà Nẵng'})
+🔧 Gọi tool: search_hotels({'city': 'Đà Nẵng', 'max_price_per_night': 1000000})
+💬 Trả lời trực tiếp
+
+Final Answer:
+Hiện tại, tôi không tìm thấy thông tin chuyến bay từ Hà Nội đến Sài Gòn cũng như từ Sài Gòn đến Đà Nẵng. Tuy nhiên, tôi có thông tin về khách sạn tại Đà Nẵng:
+
+Khách sạn tại Đà Nẵng:
+- Christina's Homestay: 350.000đ/đêm (⭐ 4.7)
+- Memory Hostel: 250.000đ/đêm (⭐ 4.6)
+- Fivitel Danang: 650.000đ/đêm (⭐ 4.1)
+
+Nếu bạn có thể điều chỉnh điểm đến hoặc ngày đi, hãy cho tôi biết để tôi hỗ trợ bạn nhé!
+```
+
+---
+
+## Chat Session
+
+**User:** Sài Gòn là Hồ Chí Minh đó, gợi ý lại giúp mình
+
+```
+🔧 Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Hồ Chí Minh'})
+🔧 Gọi tool: search_hotels({'city': 'Hồ Chí Minh'})
+🔧 Gọi tool: search_hotels({'city': 'Đà Nẵng'})
+🔧 Gọi tool: calculate_budget({'total_budget': 20000000, 'expenses': 've_may_bay:950000,khach_san_hcm:180000*2,khach_san_dn:350000*3'})
+🔧 Gọi tool: calculate_budget({'total_budget': 20000000, 'expenses': 've_may_bay:950000,khach_san_hcm:180000*2,khach_san_dn:350000*3'})
+🔧 Gọi tool: calculate_budget({'total_budget': 20000000, 'expenses': 've_may_bay:950000,khach_san_hcm:360000,khach_san_dn:1050000'})
+💬 Trả lời trực tiếp
+
+Final Answer:
+Chuyến bay:
+- **Hà Nội đến Hồ Chí Minh**: VietJet Air | 07:30 → 09:40 | 950.000đ
+
+Khách sạn tại Hồ Chí Minh:
+- **The Common Room**: 180.000đ/đêm (⭐ 4.6) | 2 đêm: 360.000đ
+
+Khách sạn tại Đà Nẵng:
+- **Christina's Homestay**: 350.000đ/đêm (⭐ 4.7) | 3 đêm: 1.050.000đ
+
+Tổng chi phí: 2.360.000đ  
+Còn lại trong ngân sách: 17.640.000đ
+
+Gợi ý: Bạn có thể sử dụng ngân sách còn lại để mua sắm, khám phá ẩm thực hoặc tham quan trong chuyến đi của mình!
+```
+
+---
+
+## Chat Session
+
+**User:** nếu tôi đi du lịch từ Hà Nội đến Sài Gòn 2 đêm, sau đó đến Đà Nẵng 3 đêm với budget 10 triệu, gợi ý
+
+```
+🔧 Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Sài Gòn'})
+🔧 Gọi tool: search_hotels({'city': 'Sài Gòn'})
+🔧 Gọi tool: search_flights({'origin': 'Sài Gòn', 'destination': 'Đà Nẵng'})
+🔧 Gọi tool: search_hotels({'city': 'Đà Nẵng'})
+💬 Trả lời trực tiếp
+
+Final Answer:
+Hiện tại không tìm thấy chuyến bay từ Hà Nội đến Sài Gòn cũng như chuyến bay từ Sài Gòn đến Đà Nẵng. Tuy nhiên, tôi có một số gợi ý về khách sạn tại Đà Nẵng:
+
+Khách sạn tại Đà Nẵng:
+- Christina's Homestay | 350.000đ/đêm | ⭐ 4.7
+- Memory Hostel | 250.000đ/đêm | ⭐ 4.6
+- Mường Thanh Luxury | 1.800.000đ/đêm | ⭐ 4.5
+- Sala Danang Beach | 1.200.000đ/đêm | ⭐ 4.3
+- Fivitel Danang | 650.000đ/đêm | ⭐ 4.1
+
+Bạn có muốn tìm hiểu về các phương án di chuyển khác hoặc gợi ý nào khác không?
+```
+
+---
+
+## Chat Session
+
+**User:** Tôi có 2 triệu, gợi ý lịch trình Hà Nội đi Phú Quốc 2 đêm
+
+```
+🔧 Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Phú Quốc'})
+🔧 Gọi tool: search_hotels({'city': 'Phú Quốc', 'max_price_per_night': 1000000})
+💬 Trả lời trực tiếp
+
+Final Answer:
+Chuyến bay từ Hà Nội đến Phú Quốc:
+- **VietJet Air** | 10:00 → 12:15 | **1.350.000đ**
+- **VietJet Air** | 16:00 → 18:15 | **1.100.000đ**
+
+Khách sạn gợi ý tại Phú Quốc:
+- **9Station Hostel** | **200.000đ/đêm** | ⭐ 4.5
+- **Lahana Resort** | **800.000đ/đêm** | ⭐ 4.0
+
+**Lịch trình gợi ý:**
+- **Bay:** Chọn chuyến bay VietJet Air 16:00 → 18:15 với giá 1.100.000đ.
+- **Khách sạn:** Ở tại 9Station Hostel (200.000đ/đêm, tổng 400.000đ cho 2 đêm).
+
+**Tổng chi phí:**
+- Vé máy bay: 1.100.000đ
+- Khách sạn: 400.000đ
+- **Tổng cộng: 1.500.000đ**
+
+Bạn còn 500.000đ cho các chi phí khác (ăn uống, đi lại,...). 
+
+Gợi ý: Hãy thưởng thức các món ăn địa phương và khám phá các bãi biển tuyệt đẹp ở Phú Quốc! Bạn cần thêm thông tin gì khác không?
+```
+
+---
+
+## Chat Session
+
+**User:** Tôi có 5 củ gợi ý lịch trình đi Hà Nội Phú Quốc 2 đêm
+
+```
+💬 Trả lời trực tiếp
+
+Final Answer:
+Bạn đã chọn chuyến đi từ Hà Nội đến Phú Quốc 2 đêm. Bạn có ngân sách khoảng bao nhiêu cho chuyến này?
+```
+
+---
+
+## Chat Session
+
+**User:** 5 triệu
+
+```
+🔧 Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Phú Quốc'})
+🔧 Gọi tool: search_hotels({'city': 'Phú Quốc', 'max_price_per_night': 2500000})
+🔧 Gọi tool: calculate_budget({'total_budget': 5000000, 'expenses': 've_may_bay:1350000,khach_san:1600000'})
+💬 Trả lời trực tiếp
+
+Final Answer:
+Dưới đây là gợi ý cho chuyến đi từ Hà Nội đến Phú Quốc 2 đêm:
+
+**Chuyến bay:**
+- VietJet Air | 10:00 → 12:15 | 1.350.000đ
+
+**Khách sạn:**
+- Sol by Meliá | 1.500.000đ/đêm (tổng cho 2 đêm: 3.000.000đ)
+
+**Tổng chi phí:**
+- Vé máy bay: 1.350.000đ
+- Khách sạn: 3.000.000đ
+- **Tổng: 4.350.000đ**
+
+**Ngân sách còn lại: 650.000đ**
+
+**Gợi ý:** Bạn có thể chọn thêm hoạt động giải trí hoặc ăn uống trong dịp này với ngân sách còn lại.
+```
+
+---
+

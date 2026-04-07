@@ -1,5 +1,6 @@
 from typing import Annotated
 from typing_extensions import TypedDict
+from openai import APIConnectionError
 
 from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
@@ -32,17 +33,57 @@ llm = ChatOpenAI(model="gpt-4o-mini")
 llm_with_tools = llm.bind_tools(tools_list)
 
 # ================== AGENT NODE ==================
+def needs_budget(messages):
+    text = str(messages)
 
+    has_flight = "search_flights" in text
+    has_hotel = "search_hotels" in text
+    has_budget = "calculate_budget" in text
+
+    return has_flight and has_hotel and not has_budget
 def agent_node(state: AgentState):
     messages = state["messages"]
 
-    # thêm system prompt nếu chưa có
     if not isinstance(messages[0], SystemMessage):
         messages = [SystemMessage(content=SYSTEM_PROMPT)] + messages
 
-    response = llm_with_tools.invoke(messages)
+    try:
+        if needs_budget(messages):
+            print("💰 Force gọi calculate_budget")
 
-    # logging
+            response = llm_with_tools.invoke(
+                messages + [
+                    ("system", 
+                    "Bạn đã có dữ liệu chuyến bay và khách sạn. "
+                    "BẮT BUỘC phải gọi tool calculate_budget ngay bây giờ. "
+                    "KHÔNG được trả lời trực tiếp.")
+                ]
+            )
+        else:
+            response = llm_with_tools.invoke(messages)
+
+    except APIConnectionError as e:
+        print("❌ Lỗi kết nối OpenAI API")
+        print(f"Chi tiết: {str(e)}")
+
+        # trả về message lỗi để không crash graph
+        return {
+            "messages": [
+                ("ai", "⚠️ Không thể kết nối tới OpenAI. Vui lòng kiểm tra mạng hoặc API key.")
+            ]
+        }
+
+    except Exception as e:
+        print("❌ Lỗi không xác định:")
+        print(str(e))
+
+        return {
+            "messages": [
+                ("ai", "⚠️ Đã xảy ra lỗi hệ thống. Vui lòng thử lại.")
+            ]
+        }
+
+    # logging bình thường
     if response.tool_calls:
         for tc in response.tool_calls:
             print(f"🔧 Gọi tool: {tc['name']}({tc['args']})")
@@ -81,7 +122,7 @@ if __name__ == "__main__":
     print("✈️ TravelBuddy — Trợ lý Du lịch")
     print("Gõ 'quit' để thoát")
     print("=" * 60)
-
+    chat_history = []
     while True:
         user_input = input("\nBạn: ").strip()
 
@@ -94,14 +135,24 @@ if __name__ == "__main__":
         old_stdout = sys.stdout
         buffer = io.StringIO()
         sys.stdout = buffer
-
+        
         try:
+            chat_history.append(("human", user_input))
+
             result = graph.invoke({
-                "messages": [("human", user_input)]
+                "messages": chat_history
             })
+
+            final = result["messages"][-1]
+
+            chat_history.append(("ai", final.content))
+        except Exception as e:
+            print("🚨 Lỗi khi chạy agent:")
+            print(str(e))
+            continue
         finally:
             sys.stdout = old_stdout
-
+        
         log_output = buffer.getvalue()
         final = result["messages"][-1]
 
