@@ -21,7 +21,13 @@ HOTELS_DB = {
         {"name": "Vinpearl Resort", "price_per_night": 3500000, "rating": 4.4},
         {"name": "Lahana Resort", "price_per_night": 800000, "rating": 4.0},
         {"name": "9Station Hostel", "price_per_night": 200000, "rating": 4.5},
+    ],
+    "Đà Nẵng": [
+        {"name": "Vinpearl Resort", "price_per_night": 3500000, "rating": 4.4},
+        {"name": "Lahana Resort", "price_per_night": 800000, "rating": 4.0},
+        {"name": "9Station Hostel", "price_per_night": 200000, "rating": 4.5},
     ]
+    
 }
 
 # ================= HELPER =================
